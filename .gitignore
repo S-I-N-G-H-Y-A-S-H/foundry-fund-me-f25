@@ -18,3 +18,5 @@ lib/
 
 .DS_Store
 zkout/
+broadcast/
+lib/

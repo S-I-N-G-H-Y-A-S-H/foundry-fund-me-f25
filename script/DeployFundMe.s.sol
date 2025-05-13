@@ -6,7 +6,7 @@ import {HelperConfig} from "./HelperConfig.s.sol";
 
 contract DeployFundMe is Script {
     function run() external returns (FundMe) {
-        //before broadcast not a real tx
+        //before broadcast not a real transaction
         HelperConfig helperConfig = new HelperConfig();
         address ethUsdPriceFeed = helperConfig.activeNetworkConfig();
         //after broadcast a real tx

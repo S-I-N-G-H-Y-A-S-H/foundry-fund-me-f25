@@ -10,7 +10,7 @@ library PriceConverter {
     function getPrice(
         AggregatorV3Interface priceFeed
     ) internal view returns (uint256) {
-        // Sepolia ETH / USD Address
+        // Sepolia ETH / USD Addresss
         // https://docs.chain.link/data-feeds/price-feeds/addresses
 
         (, int256 answer, , , ) = priceFeed.latestRoundData();

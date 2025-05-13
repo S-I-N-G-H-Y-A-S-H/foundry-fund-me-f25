@@ -25,7 +25,7 @@ contract FundFundMe is Script {
         fundFundMe(mostRecentlyDeployedFundMeContract);
         vm.stopBroadcast();
     }
-} //to run this use : forge script script/Interactions.s.sol:FundFundMe --rpc-url --private-key
+} //to run this use : forge script script/Interactions.s.sol:FundFundMe --rpc-url --private-keyy
 
 contract WithdrawFundMe is Script {
     uint256 constant SEND_VALUE = 0.01 ether;
